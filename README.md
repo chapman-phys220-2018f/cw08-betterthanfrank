@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/chapman-phys220-2018f/CHANGEME.svg?branch=master)](https://travis-ci.com/chapman-phys220-2018f/CHANGEME)
+[![Build Status](https://travis-ci.com/chapman-phys220-2018f/cw08-betterthanfrank.svg?branch=master)](https://travis-ci.com/chapman-phys220-2018f/cw08-betterthanfrank)
 
 # PHYS220/MATH220/CPSC220 CW 8
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Gwyneth, Amelia, Gabriella**
 
 ## Specification
 
@@ -48,7 +48,7 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAMES**
+**Gwyneth, Gabriella, Amelia**
 
 
 
