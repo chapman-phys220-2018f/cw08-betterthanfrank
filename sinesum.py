@@ -13,6 +13,7 @@ import seaborn as sb
 import pandas as pd
 import matplotlib as plt
 
+<<<<<<< HEAD
 def s(t, n, T=2*np.pi):
     """function for summation Sn(t)"""
     k = np.arange(1,n+1)
@@ -21,6 +22,14 @@ def s(t, n, T=2*np.pi):
     answer = np.sum(k*np.sin(Sums*t))
     return answer
 
+=======
+def s(t,n,T=2*np.pi):
+    """function for summation Sn(t)"""
+    k = np.arange(1,n+1)
+    a = 4/(np.pi)
+    sums = a*((1/(2k-1))*np.sin(((2*(2k-1)*np.pi*t))/T)) #defining Sn(t)
+    return np.sum(sums)
+>>>>>>> 3a0653ffbffac84027e14dec96bc0b078d7430d8
 
 def vecs(t,n,T=2*np.pi):
     """Function for vectorizing t"""
@@ -29,7 +38,11 @@ def vecs(t,n,T=2*np.pi):
         return s(t,n,T)
     return f(t) #bam t is now a vector... magic
 
+<<<<<<< HEAD
 def F(t, T=(2*np.pi)):
+=======
+def F(t, n, T=(2*np.pi)):
+>>>>>>> 3a0653ffbffac84027e14dec96bc0b078d7430d8
    '''t = test variable
    T = domain demonstrating variable'''
    if (t > 0) and (t < T/2):
