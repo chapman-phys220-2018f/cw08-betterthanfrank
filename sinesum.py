@@ -9,7 +9,6 @@
 # Assignment: CW08
 ###
 import numpy as np
-import seaborn as sb
 import pandas as pd
 import matplotlib as plt
 
