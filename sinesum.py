@@ -21,13 +21,6 @@ def s(t, n, T=2*np.pi):
     answer = np.sum(k*np.sin(Sums*t))
     return answer
 
-def s(t,n,T=2*np.pi):
-    """function for summation Sn(t)"""
-    k = np.arange(1,n+1)
-    a = 4/(np.pi)
-    sums = a*((1/(2k-1))*np.sin(((2*(2k-1)*np.pi*t))/T)) #defining Sn(t)
-    return np.sum(sums)
-
 def vecs(t,n,T=2*np.pi):
     """Function for vectorizing t"""
     @np.vectorize #decoratot that actually vectorizes t
@@ -35,8 +28,6 @@ def vecs(t,n,T=2*np.pi):
         return s(t,n,T)
     return f(t) #bam t is now a vector... magic
 
-def F(t, T=(2*np.pi)):
-=======
 def F(t, n, T=(2*np.pi)):
    '''t = test variable
    T = domain demonstrating variable'''
